@@ -1,1 +1,10 @@
-
+body{
+  background-color: black;
+  color: #dddddd;
+  font-family: georgia;
+  margin: 10%
+}
+.exp-header {
+  text-transform: uppercase;
+  
+}
