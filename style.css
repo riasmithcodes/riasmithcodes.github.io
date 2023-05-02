@@ -52,8 +52,40 @@ main.row{
   border-radius: 50%;
   right: calc(100% + 24px);
   top: 0%;
-  background-color: #65A3CB;
-  
-  
+  background-color: #65A3CB;}
+.box h4{
+  position: relative;
+  color: #f88767;
+}
+.box h3{
+  font-size: 19px;
+  padding: 10px 0px 6px;
+  font-family: helvetica;
+  color: #3444;
+}
+.box p{
+  line-height:1.2;
+  color: #3444;
+  font-size: 17px;
+}
+@media(max-width: 768px){
+  main.row{
+    grid-template-columns: 1fr;
+  }
+  .row .col:nth-child(2){
+    margin-top:30px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
   
 }
