@@ -1,10 +1,30 @@
-body{
-  background-color: black;
-  color: #dddddd;
-  font-family: georgia;
-  margin: 10%
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.exp-header {
-  text-transform: uppercase;
+
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #212834;
+  display: flex;
+  color: #048BC2;
+  justify-content: center;
+  align-items: center;
   
 }
+
+.container{
+  width: 100%;
+  padding: 35px 10%;
+}
+
+main.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  
+}
+  
